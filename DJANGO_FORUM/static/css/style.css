@@ -66,14 +66,7 @@ Post
     flex-basis: 85%;
 }
 
-.posts li .name_body .name{
-    font-weight: bold;
-}
 
-.posts li .name_body .datetime{
-    color: gray;
-
-}
 
 @media screen and (max-width: 500px){
 
