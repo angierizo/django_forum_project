@@ -39,7 +39,12 @@ Post
     padding: 0;
 }
 
-df
+.posts li{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+    position: relative;
+}
 
 .posts li .menu_icon{
     width: 20px;
