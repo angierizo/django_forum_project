@@ -5,21 +5,7 @@ common
 html, body{
     height: 100%;
 }
-.content {
 
-    max-width: 600px;
-    height: 100%;
-    margin: 0 auto;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-}
-/*
-Post
-***********/
-.post_form{
-    padding: 20px 40px;
-    border-bottom: 1px solid #ccc;
-}
 
 .post_form input{
     width: 70%;
