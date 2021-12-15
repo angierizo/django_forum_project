@@ -3,18 +3,7 @@
 {% load static %}
 
 <section class = "content">
-    <section class = "post_form">
-        <form action="/" method="POST">
-            {% csrf_token %}
-            <input type = "text" name="name" placeholder="Name" required>
-            <textarea name="body" placeholder="Tell us anything" required></textarea>
-            <input type="submit" value="Post" />
-        </form>
-    </section>
-    <section class = "posts">
-        <ul>
-        {% for post in posts%}
-        <li>
+    <
             <img class="menu_icon" src="{% static 'img/menu.png' %}" />
             <div class="logo">
                 <img src ="{% static 'img/profile-user.png' %}" />
