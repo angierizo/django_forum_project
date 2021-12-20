@@ -3,6 +3,10 @@
 {% load static %}
 
 <section class = "content">
+    <div class="header">
+        <img src="{% static 'img/futbol KC.png' %}" alt="logo" width="100" height="100" />
+        <h2>Home</h2>
+    </div>
     <section class = "post_form">
         <form action="/" method="POST">
             {% csrf_token %}
@@ -34,4 +38,3 @@
 
 
 {% endblock %}
-

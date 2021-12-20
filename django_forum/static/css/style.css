@@ -12,6 +12,13 @@ html, body{
     margin: 0 auto;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+}.
+.header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
 }
 /*
 Post
