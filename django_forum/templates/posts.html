@@ -4,16 +4,18 @@
 
 <section class = "content">
     <div class="header">
-        <img src="{% static 'img/futbol KC.png' %}" alt="logo" width="100" height="100" />
+        <img src="{% static 'img/techis-logo.png' %}" alt="logo" width="100" height="100" />
         <h2>Home</h2>
     </div>
     <section class = "post_form">
         <form action="/" method="POST">
             {% csrf_token %}
-            <input type = "text" name="name" placeholder="Name" required>
-            <textarea name="body" placeholder="Tell us anything" required></textarea>
-            <input type="submit" value="Post" />
+            <textarea name="body" placeholder="What are you doing?" required></textarea>
+            <input type="submit" value="Tweet" />
         </form>
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+          </form>
     </section>
     <section class = "posts">
         <ul>
