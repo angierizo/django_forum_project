@@ -90,4 +90,7 @@ Post
 }
 
 
+.posts li .body{
+    flex-basis: 85%;
+}
 
