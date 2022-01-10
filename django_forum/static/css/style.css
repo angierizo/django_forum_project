@@ -88,3 +88,10 @@ Post
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 500px){
+
+    .posts li .name_body .name{
+        font-size: 20px;
+    }
+}
