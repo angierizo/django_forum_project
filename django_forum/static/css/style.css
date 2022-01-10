@@ -90,4 +90,8 @@ Post
 }
 
 
-df
+df_footer{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
