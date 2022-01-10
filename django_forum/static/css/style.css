@@ -89,15 +89,4 @@ Post
     }
 }
 
-.posts li .name_body .datetime{
-    color: gray;
-
-}
-
-@media screen and (max-width: 500px){
-
-    .posts li .name_body .name{
-        font-size: 20px;
-    }
-}
 
