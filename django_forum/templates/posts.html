@@ -10,7 +10,8 @@
     <section class = "post_form">
         <form action="/" method="POST">
             {% csrf_token %}
-            <textarea name="body" placeholder="What are you doing?" required></textarea>
+            <input type="text" value="Name"/>
+            <textarea name="body" placeholder="What's happening?" required></textarea>
             <input type="submit" value="Tweet" />
         </form>
         <form action="/action_page.php">
@@ -38,5 +39,9 @@
 
 </section>
 
+
+{% endblock %}
+
+{% endblock %}
 
 {% endblock %}
