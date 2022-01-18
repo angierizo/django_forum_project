@@ -92,3 +92,18 @@
 </li>
 {% endfor %}
 
+<div class ="name_body">
+    <div class="name">{{ post.name }}</div>
+    <div class="datetime"> {{ post.created_at}}</div>
+    <p> {{ post.body}} </p>
+    <a href="/delete/{{ post.id }}/">delete</a>
+</div>
+</li>
+{% endfor %}
+</ul>
+</section>
+
+</section>
+
+
+{% endblock %}
