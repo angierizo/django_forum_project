@@ -23,6 +23,7 @@
         {% for post in posts%}
         <li>
             <img class="menu_icon" src="{% static 'img/menu.png' %}" />
+            <div
             <div class="logo">
                 <img src ="{% static 'img/profile-user.png' %}" />
             </div>
@@ -36,6 +37,22 @@
         {% endfor %}
         </ul>
     </section>
+
+</section>
+
+
+{% endblock %}
+-------------------------
+<div class ="name_body">
+    <div class="name">{{ post.name }}</div>
+    <div class="datetime"> {{ post.created_at}}</div>
+    <p> {{ post.body}} </p>
+    <a href="/delete/{{ post.id }}/">delete</a>
+</div>
+</li>
+{% endfor %}
+</ul>
+</section>
 
 </section>
 
